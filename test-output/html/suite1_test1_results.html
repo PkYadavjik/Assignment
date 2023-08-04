@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">runner.TestCases</th>
+	    <th id="testClassNameId" hidden="true">TestCases</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\pradeep\Desktop\practice\SenWellsysassignment.com\SenWellsysassignment.com\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:00:34</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>4</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+												
+				
+				
+												<tr>
+			<td class="time">1691155499760</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5ca64c3b-1980-4945-85c4-206b22010e6e','block');changeSingleIcon('span-5ca64c3b-1980-4945-85c4-206b22010e6e');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>runner.TestCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5ca64c3b-1980-4945-85c4-206b22010e6e' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1691155499760</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUserisLandedOnTheHomePage001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
+						<span class="duration"><b>Duration: </b>0.948s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5ca64c3b-1980-4945-85c4-206b22010e6e" style="display: block;">
+												Test started which method name is :&nbsp;&nbsp; VerifyUserisLandedOnTheHomePage001<br>
+												Test Successfully Finished VerifyUserisLandedOnTheHomePage001&nbsp; And&nbsp; Staus is:&nbsp; 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1691155513788</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8baac4f2-9fe6-4560-8fef-5f251491d053','block');changeSingleIcon('span-8baac4f2-9fe6-4560-8fef-5f251491d053');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>runner.TestCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8baac4f2-9fe6-4560-8fef-5f251491d053' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1691155513788</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUsercanAddItemInAddToCart003</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
+						<span class="duration"><b>Duration: </b>1.329s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8baac4f2-9fe6-4560-8fef-5f251491d053" style="display: block;">
+												Test started which method name is :&nbsp;&nbsp; VerifyUsercanAddItemInAddToCart003<br>
+												Test Successfully Finished VerifyUsercanAddItemInAddToCart003&nbsp; And&nbsp; Staus is:&nbsp; 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1691155507078</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('04896084-0947-4a4d-b40e-0fccf1acc38f','block');changeSingleIcon('span-04896084-0947-4a4d-b40e-0fccf1acc38f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>runner.TestCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-04896084-0947-4a4d-b40e-0fccf1acc38f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1691155507078</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyloginWithInvalidData002</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+						<span class="duration"><b>Duration: </b>0.867s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="04896084-0947-4a4d-b40e-0fccf1acc38f" style="display: block;">
+												Test started which method name is :&nbsp;&nbsp; verifyloginWithInvalidData002<br>
+												Test Successfully Finished verifyloginWithInvalidData002&nbsp; And&nbsp; Staus is:&nbsp; 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1691155519887</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5f888df5-4343-4e22-ba41-c0d1f8bd65dd','block');changeSingleIcon('span-5f888df5-4343-4e22-ba41-c0d1f8bd65dd');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>runner.TestCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5f888df5-4343-4e22-ba41-c0d1f8bd65dd' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1691155519887</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyUserCanOrderTheProduct004</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
+						<span class="duration"><b>Duration: </b>2.556s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5f888df5-4343-4e22-ba41-c0d1f8bd65dd" style="display: block;">
+												Test started which method name is :&nbsp;&nbsp; verifyUserCanOrderTheProduct004<br>
+												Test Successfully Finished verifyUserCanOrderTheProduct004&nbsp; And&nbsp; Staus is:&nbsp; 1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

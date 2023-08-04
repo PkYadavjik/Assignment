@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started which method name is :   VerifyUserisLandedOnTheHomePage001]]>
+    </line>
+    <line>
+      <![CDATA[Test Successfully Finished VerifyUserisLandedOnTheHomePage001  And  Staus is:  1]]>
+    </line>
+    <line>
+      <![CDATA[Test started which method name is :   verifyloginWithInvalidData002]]>
+    </line>
+    <line>
+      <![CDATA[Test Successfully Finished verifyloginWithInvalidData002  And  Staus is:  1]]>
+    </line>
+    <line>
+      <![CDATA[Test started which method name is :   VerifyUsercanAddItemInAddToCart003]]>
+    </line>
+    <line>
+      <![CDATA[Test Successfully Finished VerifyUsercanAddItemInAddToCart003  And  Staus is:  1]]>
+    </line>
+    <line>
+      <![CDATA[Test started which method name is :   verifyUserCanOrderTheProduct004]]>
+    </line>
+    <line>
+      <![CDATA[Test Successfully Finished verifyUserCanOrderTheProduct004  And  Staus is:  1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-04T18:54:48 IST" name="Suite" finished-at="2023-08-04T18:55:22 IST" duration-ms="34028">
+    <groups>
+    </groups>
+    <test started-at="2023-08-04T18:54:48 IST" name="Test" finished-at="2023-08-04T18:55:22 IST" duration-ms="34028">
+      <class name="runner.TestCases">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:54:48 IST" name="initilization" finished-at="2023-08-04T18:54:48 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method is-config="true" signature="LaunchBrowserAndlogin(java.lang.reflect.Method)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:54:48 IST" name="LaunchBrowserAndlogin" finished-at="2023-08-04T18:54:59 IST" duration-ms="11024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void runner.TestCases.VerifyUserisLandedOnTheHomePage001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserAndlogin -->
+        <test-method signature="VerifyUserisLandedOnTheHomePage001()[pri:1, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:54:59 IST" name="VerifyUserisLandedOnTheHomePage001" finished-at="2023-08-04T18:55:00 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started which method name is :   VerifyUserisLandedOnTheHomePage001]]>
+            </line>
+            <line>
+              <![CDATA[Test Successfully Finished VerifyUserisLandedOnTheHomePage001  And  Staus is:  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserisLandedOnTheHomePage001 -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:00 IST" name="logOut" finished-at="2023-08-04T18:55:01 IST" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserisLandedOnTheHomePage001 status=SUCCESS method=TestCases.VerifyUserisLandedOnTheHomePage001()[pri:1, instance:runner.TestCases@3541cb24] output=Test started which method name is :   VerifyUserisLandedOnTheHomePage001]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="LaunchBrowserAndlogin(java.lang.reflect.Method)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:01 IST" name="LaunchBrowserAndlogin" finished-at="2023-08-04T18:55:07 IST" duration-ms="5385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void runner.TestCases.verifyloginWithInvalidData002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserAndlogin -->
+        <test-method signature="verifyloginWithInvalidData002()[pri:2, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:07 IST" name="verifyloginWithInvalidData002" finished-at="2023-08-04T18:55:07 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started which method name is :   verifyloginWithInvalidData002]]>
+            </line>
+            <line>
+              <![CDATA[Test Successfully Finished verifyloginWithInvalidData002  And  Staus is:  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithInvalidData002 -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:07 IST" name="logOut" finished-at="2023-08-04T18:55:08 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginWithInvalidData002 status=SUCCESS method=TestCases.verifyloginWithInvalidData002()[pri:2, instance:runner.TestCases@3541cb24] output=Test started which method name is :   verifyloginWithInvalidData002]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="LaunchBrowserAndlogin(java.lang.reflect.Method)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:08 IST" name="LaunchBrowserAndlogin" finished-at="2023-08-04T18:55:13 IST" duration-ms="5632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void runner.TestCases.VerifyUsercanAddItemInAddToCart003()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserAndlogin -->
+        <test-method signature="VerifyUsercanAddItemInAddToCart003()[pri:3, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:13 IST" name="VerifyUsercanAddItemInAddToCart003" finished-at="2023-08-04T18:55:15 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started which method name is :   VerifyUsercanAddItemInAddToCart003]]>
+            </line>
+            <line>
+              <![CDATA[Test Successfully Finished VerifyUsercanAddItemInAddToCart003  And  Staus is:  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUsercanAddItemInAddToCart003 -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:15 IST" name="logOut" finished-at="2023-08-04T18:55:15 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUsercanAddItemInAddToCart003 status=SUCCESS method=TestCases.VerifyUsercanAddItemInAddToCart003()[pri:3, instance:runner.TestCases@3541cb24] output=Test started which method name is :   VerifyUsercanAddItemInAddToCart003]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="LaunchBrowserAndlogin(java.lang.reflect.Method)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:15 IST" name="LaunchBrowserAndlogin" finished-at="2023-08-04T18:55:19 IST" duration-ms="4543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void runner.TestCases.verifyUserCanOrderTheProduct004()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserAndlogin -->
+        <test-method signature="verifyUserCanOrderTheProduct004()[pri:4, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:19 IST" name="verifyUserCanOrderTheProduct004" finished-at="2023-08-04T18:55:22 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started which method name is :   verifyUserCanOrderTheProduct004]]>
+            </line>
+            <line>
+              <![CDATA[Test Successfully Finished verifyUserCanOrderTheProduct004  And  Staus is:  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanOrderTheProduct004 -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:22 IST" name="logOut" finished-at="2023-08-04T18:55:22 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanOrderTheProduct004 status=SUCCESS method=TestCases.verifyUserCanOrderTheProduct004()[pri:4, instance:runner.TestCases@3541cb24] output=Test started which method name is :   verifyUserCanOrderTheProduct004]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:runner.TestCases@3541cb24]" started-at="2023-08-04T18:55:22 IST" name="flush" finished-at="2023-08-04T18:55:22 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- runner.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
